@@ -1,0 +1,17 @@
+{
+    "name": "sysmon_disabled_events.xml",
+    "purpose": "production",
+    "schema": "4.30",
+    "disabled_events": [
+        "ProcessTerminate",
+        "FileDelete",
+        "FileDeleteDetected",
+        "FileBlockExecutable",
+        "FileBlockShredding"
+    ],
+    "exclusions": [],
+    "inclusions": [],
+    "remove_comments": true,
+    "remove_private_modules": false,
+    "template_file": "base_config.xml"
+}
